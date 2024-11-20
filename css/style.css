@@ -79,8 +79,12 @@ aside {
     height: 30px;
     background-image: url(../images/menu1.png);
     border-radius: 50px;
-    padding-top: 5px;
+    padding-top: 6px;
 
+}
+
+.menu-item:hover {
+    background-image: url(../images/menu2.png);
 }
 
 .aside-footer {
@@ -91,6 +95,11 @@ aside {
     border-bottom: 0px;
     border-left: 0px;
     border-right: 0px;
+    font-family: '標楷體';
+    font-size: 16px;
+    color: #000000;
+    text-align: center;
+    padding: 3px;
 }
 
 
@@ -129,7 +138,7 @@ main {
 footer {
     width: 1024px;
     height: 20px;
-    background-color: lightcoral;
+    /* background-color: lightcoral; */
     margin: auto;
     border: 1px solid black;
     border-top: 0px;
