@@ -34,9 +34,10 @@ header {
 aside {
     width: 215px;
     height: calc(768px - 65px -20px);
-    background-color: lightgray;
+    /* background-color: lightgray; */
     display: flex;
     flex-direction: column;
+
 
 }
 
@@ -46,13 +47,33 @@ aside {
     height: calc(100% - 25px);
     flex-direction: 主軸長度 iteam method */
     flex-basis: calc(100% - 25px);
-    background-color: lightpink;
+    /* background-color: lightpink; */
+    font-family: '標楷體';
+    font-weight: 500px;
+    font-size: 24px;
+    text-align: center;
+    padding: 10px;
+    color: #FF00FF;
+
+}
+
+.aside-title {
+    border-bottom: 1px solid black;
+    padding: 10px;
+
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .aside-footer {
     width: 100%;
     flex-basis: 25px;
-    background-color: lightslategray;
+    /* background-color: lightslategray; */
     border: 1px solid black;
     border-bottom: 0px;
     border-left: 0px;
